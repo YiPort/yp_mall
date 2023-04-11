@@ -10,7 +10,14 @@ spring:
     virtual-host: /yiport
 
 
-
+yiport:
+  ye:
+    rly: #容联云短信配置
+      sms:
+        acount:  xxx # ACCOUNT SID(主账户ID)
+        token:  xxx # AUTH TOKEN(账户授权令牌)
+        appId:  xxx # AppID
+        templateId: 1  #短信模板ID
   sms:
     accessKeyId: JWffwFJIwada # 你自己的accessKeyId
     accessKeySecret: aySRliswq8fe7rF9gQyy1Izz4MQ # 你自己的AccessKeySecret

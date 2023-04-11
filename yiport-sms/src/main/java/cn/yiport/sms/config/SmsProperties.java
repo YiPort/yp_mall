@@ -2,7 +2,7 @@ package cn.yiport.sms.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = "spring.sms")
+@ConfigurationProperties(prefix = "yiport.sms")
 public class SmsProperties {
 
     String accessKeyId;
